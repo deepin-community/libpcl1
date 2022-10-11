@@ -1,0 +1,48 @@
+libpcl1 (1.12-2) unstable; urgency=medium
+
+  * QA upload.
+
+  [ Debian Janitor ]
+  * Set debhelper-compat version in Build-Depends.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Thu, 04 Feb 2021 01:49:51 +0000
+
+libpcl1 (1.12-1) unstable; urgency=medium
+
+  * QA upload.
+  * New upstream release.
+  * Update watch file to version 4 format (no changes).
+  * Upgrade to debhelper compat level 11.
+  * Remove duplicate Section field in debian/control.
+  * Delete trailing whitespace from debian/{changelog,control}.
+  * Add debian/source/format.
+  * Upgrade to Standards-Version 4.2.1.
+  * Update debian/copyright to the machine-readable format.
+  * Add Vcs-Git and Vcs-Browser fields to debian/control.
+  * Mark libpcl1-dev and libpcl1 as Multi-Arch: same.
+
+ -- Fabian Wolff <fabi.wolff@arcor.de>  Sun, 09 Sep 2018 21:00:38 +0200
+
+libpcl1 (1.6-2) unstable; urgency=medium
+
+  * QA upload.
+  * Set maintainer to Debian QA Group. (see #838043)
+  * Add the missing ${misc:Depends} dependencies.
+  * Use the Homepage field to point to the upstream homepage.
+    (Closes: #615220, #615339)
+
+ -- Adrian Bunk <bunk@debian.org>  Sat, 21 Jan 2017 23:29:29 +0200
+
+libpcl1 (1.6-1.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Move from obsolete Source-Version substvar to binary:Version.
+    (Closes: #833196)
+
+ -- Chris Lamb <lamby@debian.org>  Fri, 11 Nov 2016 13:23:45 +0000
+
+libpcl1 (1.6-1) unstable; urgency=low
+
+  * Initial release Closes: #360340
+
+ -- Damián Viano <debian@damianv.com.ar>  Sat,  1 Apr 2006 10:42:05 -0300
